@@ -1,0 +1,22 @@
+.input {
+  height: 50px;
+  width: 400px;
+}
+.btn {
+  margin: 50px auto !important;
+  width: 350px;
+  height: 50px;
+  background-color: #1599a2 !important;
+}
+.dateİnput {
+  height: 54px !important;
+  width: 400px;
+}
+.dateInput input::placeholder {
+  font-size: 18px; /* Adjust the font size as needed */
+  color: #888; /* Optionally change the placeholder color */
+}
+
+.container {
+  margin-top: 40px;
+}

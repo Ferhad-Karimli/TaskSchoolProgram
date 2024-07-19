@@ -1,0 +1,19 @@
+.container {
+  height: 100px;
+  width: 100%;
+  background-color: #1599a2;
+  display: flex;
+  padding: 20px 0 0 80px;
+}
+.container p {
+  margin-left: 50px;
+  font-size: 18px;
+  color: #ffff;
+  cursor: pointer;
+}
+.link {
+  text-decoration: none;
+}
+.activeLink {
+  color: #c2e4e7; /* Active link color */
+}
