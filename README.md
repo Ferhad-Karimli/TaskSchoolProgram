@@ -10,16 +10,20 @@ mui,react-hook-form ,react-router-dom
 
 ## Deployment Url
 
-```bash
 https://task-school-program-boc6.vercel.app/addExam
 
-
 # Clone the repository
+
 git clone https://github.com/username/my-react-app.git
 
 # Navigate to the project directory
+
 cd my-react-app
 
 # Install dependencies
+
 npm install
+
+```
+
 ```
