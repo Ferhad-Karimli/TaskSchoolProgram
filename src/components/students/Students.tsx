@@ -21,7 +21,7 @@ export default function Students() {
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
       <Grid container className={style.container}>
-        <Grid item lg={3} spacing={2}>
+        <Grid item lg={4} spacing={2}>
           <Controller
             name="classNumber"
             control={control}
@@ -52,7 +52,7 @@ export default function Students() {
             )}
           />
         </Grid>
-        <Grid item lg={3} spacing={2}>
+        <Grid item lg={4} spacing={2}>
           <Controller
             name="studentName"
             control={control}
@@ -75,7 +75,7 @@ export default function Students() {
             )}
           />
         </Grid>
-        <Grid item lg={3}>
+        <Grid item lg={4}>
           <Controller
             name="studentSername"
             control={control}
@@ -99,7 +99,7 @@ export default function Students() {
           />
         </Grid>
 
-        <Grid item lg={3} spacing={2}>
+        <Grid item lg={12} spacing={2}>
           <Controller
             name="classes"
             control={control}

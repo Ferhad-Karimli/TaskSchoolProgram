@@ -26,7 +26,7 @@ export default function Exam() {
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
       <Grid container className={style.container}>
-        <Grid item lg={3} spacing={2}>
+        <Grid item lg={4} spacing={2}>
           <Controller
             name="lessonCode"
             control={control}
@@ -49,7 +49,7 @@ export default function Exam() {
             )}
           />
         </Grid>
-        <Grid item lg={3} spacing={2}>
+        <Grid item lg={4} spacing={2}>
           <Controller
             name="numberOfStudent"
             control={control}
@@ -80,7 +80,7 @@ export default function Exam() {
             )}
           />
         </Grid>
-        <Grid item lg={3}>
+        <Grid item lg={4}>
           <Controller
             name="examDate"
             control={control}
@@ -102,7 +102,7 @@ export default function Exam() {
           />
         </Grid>
 
-        <Grid item lg={3} spacing={2}>
+        <Grid item lg={12} spacing={3} style={{ marginTop: "25px" }}>
           <Controller
             name="price"
             control={control}
